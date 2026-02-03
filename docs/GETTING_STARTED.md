@@ -41,13 +41,7 @@ forge build
 npx hardhat compile
 ```
 
-**Frontend:**
-```bash
-cd frontend
-npm install
-npm run dev
-# Open http://localhost:3000
-```
+> **Note:** This repository focuses on **Solana + EVM casino game smart contracts**. Any frontend (web app) is expected to live in a separate project.
 
 ### Step 3: Run Tests
 

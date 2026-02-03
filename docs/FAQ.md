@@ -101,12 +101,12 @@ Yes! This is open-source under MIT license. You can:
 ### How do I integrate this into my project?
 1. Clone the repository
 2. Deploy contracts to your target chain
-3. Integrate frontend components
+3. Integrate your own frontend (this repo focuses on on-chain contracts/programs)
 4. Configure your tokens and pools
 5. See [GETTING_STARTED.md](./GETTING_STARTED.md) for details
 
 ### Is there a Telegram bot?
-Yes! The repository includes a Telegram bot for in-chat gaming. See `telegram-bot/` directory.
+There is a `telegram-bot/` directory as a **scaffold/WIP**. Treat it as optional and expect to customize it for your specific Web3 casino game deployment.
 
 ## Business Questions
 
@@ -164,6 +164,8 @@ Yes, the architecture is designed for scalability:
 - Review VRF provider documentation
 
 ### Frontend won't connect
+This repository does not ship a production frontend. If you built your own UI:
+
 - Check wallet extension is installed
 - Verify network configuration
 - Check RPC endpoint is accessible

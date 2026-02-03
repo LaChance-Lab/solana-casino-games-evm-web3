@@ -1,0 +1,11 @@
+{
+  "name": "multi-chain-casino-telegram-bot",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Telegram bot scaffold for a Web3 casino game (WIP)",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "lint": "echo \"TODO: add lint\""
+  }
+}

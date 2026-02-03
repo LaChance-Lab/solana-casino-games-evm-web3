@@ -1,47 +1,55 @@
 name: Tests
 
-on: [push, pull_request]
+on:
+  push:
+  pull_request:
 
 jobs:
   test-solana:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: web3/solana
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
+
       - name: Install Rust
         uses: actions-rs/toolchain@v1
+        with:
+          toolchain: stable
+          override: true
+
       - name: Install Solana
         run: sh -c "$(curl -sSfL https://release.solana.com/stable/install)"
+
       - name: Install Anchor
         run: cargo install --git https://github.com/coral-xyz/anchor anchor-cli --locked
+
+      - name: Install dependencies
+        run: npm install
+
       - name: Build
-        run: cd solana && anchor build
+        run: anchor build
+
       - name: Test
-        run: cd solana && anchor test
+        run: anchor test
 
   test-evm:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: web3/evm
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
+
       - name: Install Foundry
         uses: foundry-rs/foundry-toolchain@v1
+
+      - name: Install dependencies
+        run: npm install
+
       - name: Build
-        run: cd evm && forge build
+        run: forge build
+
       - name: Test
-        run: cd evm && forge test -vvv
-```
-
----
-
-### **10. Add Example Code**
-
-Create `/examples` folder:
-```
-examples/
-├── solana/
-│   ├── play-crash.ts
-│   ├── play-coinflip.ts
-│   └── check-results.ts
-├── evm/
-│   ├── play-crash.js
-│   └── interact.js
-└── README.md
+        run: forge test -vvv

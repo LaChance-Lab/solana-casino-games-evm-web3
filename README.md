@@ -8,8 +8,8 @@ This repository provides production-ready Solana and EVM casino game smart contr
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Solana](https://img.shields.io/badge/Solana-14F195?logo=solana&logoColor=white)](https://solana.com)
 [![Ethereum](https://img.shields.io/badge/Ethereum-3C3C3D?logo=ethereum&logoColor=white)](https://ethereum.org)
-[![Stars](https://img.shields.io/github/stars/LaChance-Lab/Multi-Chain-Casino-Games?style=social)](https://github.com/LaChance-Lab/Multi-Chain-Casino-Games/stargazers)
-[![Forks](https://img.shields.io/github/forks/LaChance-Lab/Multi-Chain-Casino-Games?style=social)](https://github.com/LaChance-Lab/Multi-Chain-Casino-Games/network/members)
+[![Stars](https://img.shields.io/github/stars/LaChance-Lab/EVM-Solana-Casino-Games?style=social)](https://github.com/LaChance-Lab/EVM-Solana-Casino-Games/stargazers)
+[![Forks](https://img.shields.io/github/forks/LaChance-Lab/EVM-Solana-Casino-Games?style=social)](https://github.com/LaChance-Lab/EVM-Solana-Casino-Games/network/members)
 [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?logo=telegram&logoColor=white)](https://t.me/lachancelab)
 
 **10 Classic Casino Games • Multi-Chain Support • Provably Fair • Telegram Integration**
@@ -28,6 +28,7 @@ https://github.com/user-attachments/assets/fe07fb7c-e5da-4bd8-bb4d-2d98565a9537
 - [Games Suite](#-games-suite)
 - [Supported Chains](#-supported-chains)
 - [Technology Stack](#-technology-stack)
+- [Documentation](#-documentation)
 - [Core Features](#-core-features)
 - [Security Features](#️-security-features)
 - [Token Integration](#-token-integration)
@@ -39,7 +40,15 @@ https://github.com/user-attachments/assets/fe07fb7c-e5da-4bd8-bb4d-2d98565a9537
 
 ## 🌟 Overview
 
-A fully decentralized, provably fair casino platform supporting Solana, EVM-compatible, Bitcoin, Sui, Cardano Chains. Play classic casino games with transparent, verifiable outcomes powered by VRF (Verifiable Random Function) technology. (Built 10+ Casino Game Platforms)
+A fully decentralized, provably fair casino platform supporting **Solana** and **EVM-compatible** chains. (Additional chains can be added by extending the same patterns.) Play classic casino games with transparent, verifiable outcomes powered by VRF (Verifiable Random Function) technology.
+
+---
+
+## 📚 Documentation
+
+- **Docs index**: [`docs/README.md`](./docs/README.md)
+- **Games (SEO landing page)**: [`docs/GAMES.md`](./docs/GAMES.md)
+- **Getting started**: [`docs/GETTING_STARTED.md`](./docs/GETTING_STARTED.md)
 
 **Built for:**
 - 🎲 Casino operators looking for multi-chain support
@@ -392,7 +401,7 @@ Draw your winning numbers!
 #### 1️⃣ Clone Repository
 ```bash
 git clone https://github.com/LaChance-Lab/EVM-Solana-Casino-Games.git
-cd Multi-Chain-Casino-Games
+cd EVM-Solana-Casino-Games
 ```
 
 #### 2️⃣ Solana Setup
@@ -411,13 +420,8 @@ forge build
 forge test -vvv
 ```
 
-#### 4️⃣ Frontend Setup
-```bash
-cd frontend
-npm install
-npm run dev
-# Open http://localhost:3000
-```
+#### 4️⃣ Optional Components
+- **Telegram bot scaffold:** see `telegram-bot/` (WIP)
 > Star ⭐ this repo to get notified whenever this repo is updated!
 
 ### Deploy to Testnet
@@ -439,11 +443,12 @@ forge script script/Deploy.s.sol --rpc-url sepolia --broadcast --verify
 ## 📂 Repository Structure
 
 ```
-Multi-Chain-Casino-Games/
+EVM-Solana-Casino-Games/
 ├── 📄 README.md              ← You are here
 ├── 📄 LICENSE                ← MIT License
 ├── 📄 CONTRIBUTING.md        ← Contribution guidelines
 ├── 📄 SECURITY.md            ← Security policy
+├── 📄 CHANGELOG.md           ← Version history (helps with SEO)
 │
 ├── 📁 web3/                  ← Smart contracts
 │   ├── 📁 solana/            ← Solana programs (Rust + Anchor)
@@ -485,14 +490,6 @@ Multi-Chain-Casino-Games/
 │       ├── foundry.toml
 │       └── README.md
 │
-├── 📁 frontend/              ← Next.js frontend
-│   ├── src/
-│   │   ├── components/
-│   │   ├── pages/
-│   │   └── lib/
-│   ├── public/
-│   └── package.json
-│
 ├── 📁 telegram-bot/          ← Telegram integration
 │   ├── src/
 │   └── package.json
@@ -500,8 +497,10 @@ Multi-Chain-Casino-Games/
 ├── 📁 docs/                  ← Documentation
 │   ├── ARCHITECTURE.md
 │   ├── DEPLOYMENT.md
-│   ├── GAMES.md
-│   └── API.md
+│   ├── FAQ.md
+│   ├── GETTING_STARTED.md
+│   ├── API.md
+│   └── GAMES.md              ← Game-by-game docs (SEO landing page)
 │
 └── 📁 examples/              ← Usage examples
     ├── solana/
