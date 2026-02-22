@@ -400,13 +400,13 @@ Draw your winning numbers!
 
 #### 1️⃣ Clone Repository
 ```bash
-git clone https://github.com/LaChance-Lab/EVM-Solana-Casino-Games.git
+git clone https://github.com/LaChance-Lab/solana-casino-games-web3-evm.git
 cd EVM-Solana-Casino-Games
 ```
 
 #### 2️⃣ Solana Setup
 ```bash
-cd web3/solana
+cd solana-casino-games-web3-evm
 npm install
 anchor build
 anchor test
