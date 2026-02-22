@@ -1,6 +1,6 @@
 # Multi-Chain Casino Games Platform | Solana & EVM Casino Game Smart Contracts
 
-**Multi-chain casino games platform with 10 provably fair games. Solana casino games, EVM casino games, blockchain casino smart contracts. Built with Anchor (Rust) and Solidity. Supports Solana, Ethereum, Base, Arbitrum, Polygon. VRF-powered randomness with Chainlink and ORAO. Crash, Plinko, Dice, Blackjack, Roulette, Poker, Slots, CoinFlip, Lottery games.**
+**Production-ready Platform for building provably fair casino games on Solana and EVM chains. Includes 10 games (Crash, Plinko, Dice, Blackjack, Roulette, Poker, Slots, CoinFlip, Jackpot, Lottery) with VRF-powered randomness via Chainlink and ORAO.**
 
 This repository provides production-ready Solana and EVM casino game smart contracts for building provably fair Web3 casino games. It supports multi-chain deployment on Solana and EVM networks, enabling developers to create decentralized casino games with transparent logic, verifiable randomness, and on-chain fairness.
 <div align="center">
@@ -8,8 +8,8 @@ This repository provides production-ready Solana and EVM casino game smart contr
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Solana](https://img.shields.io/badge/Solana-14F195?logo=solana&logoColor=white)](https://solana.com)
 [![Ethereum](https://img.shields.io/badge/Ethereum-3C3C3D?logo=ethereum&logoColor=white)](https://ethereum.org)
-[![Stars](https://img.shields.io/github/stars/LaChance-Lab/solana-casino-games-web3?style=social)](https://github.com/LaChance-Lab/solana-casino-games-web3/stargazers)
-[![Forks](https://img.shields.io/github/forks/LaChance-Lab/solana-casino-games-web3?style=social)](https://github.com/LaChance-Lab/solana-casino-games-web3/network/members)
+[![Stars](https://img.shields.io/github/stars/LaChance-Lab/solana-casino-games-evm-web3?style=social)](https://github.com/LaChance-Lab/solana-casino-games-evm-web3/stargazers)
+[![Forks](https://img.shields.io/github/forks/LaChance-Lab/solana-casino-games-evm-web3?style=social)](https://github.com/LaChance-Lab/solana-casino-games-evm-web3/network/members)
 [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?logo=telegram&logoColor=white)](https://t.me/lachancelab)
 
 **10 Classic Casino Games • Multi-Chain Support • Provably Fair • Telegram Integration**
@@ -47,7 +47,7 @@ A fully decentralized, provably fair casino platform supporting **Solana** and *
 ## 📚 Documentation
 
 - **Docs index**: [`docs/README.md`](./docs/README.md)
-- **Games (SEO landing page)**: [`docs/GAMES.md`](./docs/GAMES.md)
+- **Games**: [`docs/GAMES.md`](./docs/GAMES.md)
 - **Getting started**: [`docs/GETTING_STARTED.md`](./docs/GETTING_STARTED.md)
 
 **Built for:**
@@ -400,13 +400,13 @@ Draw your winning numbers!
 
 #### 1️⃣ Clone Repository
 ```bash
-git clone https://github.com/LaChance-Lab/solana-casino-games-web3-evm.git
-cd solana-casino-games-web3
+git clone https://github.com/LaChance-Lab/solana-casino-games-evm-web3.git
+cd solana-casino-games-evm-web3
 ```
 
 #### 2️⃣ Solana Setup
 ```bash
-cd solana-casino-games-web3-evm
+cd solana-casino-games-evm-web3
 npm install
 anchor build
 anchor test
@@ -443,12 +443,12 @@ forge script script/Deploy.s.sol --rpc-url sepolia --broadcast --verify
 ## 📂 Repository Structure
 
 ```
-solana-casino-games-web3/
+solana-casino-games-evm-web3/
 ├── 📄 README.md              ← You are here
 ├── 📄 LICENSE                ← MIT License
 ├── 📄 CONTRIBUTING.md        ← Contribution guidelines
 ├── 📄 SECURITY.md            ← Security policy
-├── 📄 CHANGELOG.md           ← Version history (helps with SEO)
+├── 📄 CHANGELOG.md           ← Version history
 │
 ├── 📁 web3/                  ← Smart contracts
 │   ├── 📁 solana/            ← Solana programs (Rust + Anchor)
@@ -500,7 +500,7 @@ solana-casino-games-web3/
 │   ├── FAQ.md
 │   ├── GETTING_STARTED.md
 │   ├── API.md
-│   └── GAMES.md              ← Game-by-game docs (SEO landing page)
+│   └── GAMES.md              ← Game-by-game docs
 │
 └── 📁 examples/              ← Usage examples
     ├── solana/
@@ -795,7 +795,7 @@ Any SPL token (Solana) or ERC-20 token (EVM chains). USDC, USDT, and custom toke
 ### Is this audited?
 Yes, all contracts undergo security audits. See [SECURITY.md](./SECURITY.md) for details.
 
-**More questions?** See our [FAQ Guide](./docs/FAQ.md) or open a [GitHub Discussion](https://github.com/LaChance-Lab/solana-casino-games-web3-evm/discussions).
+**More questions?** See our [FAQ Guide](./docs/FAQ.md) or open a [GitHub Discussion](https://github.com/LaChance-Lab/solana-casino-games-evm-web3/discussions).
 
 ---
 
@@ -807,6 +807,6 @@ Yes, all contracts undergo security audits. See [SECURITY.md](./SECURITY.md) for
 
 Made with ❤️ by LaChanceLab
 
-*Powered by Provably Fair Technology*a m
+*Powered by Provably Fair Technology*
 
 </div>

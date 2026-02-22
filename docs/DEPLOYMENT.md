@@ -86,4 +86,4 @@ forge script script/Deploy.s.sol --rpc-url sepolia --broadcast --verify
 
 - **Architecture**: [`ARCHITECTURE.md`](./ARCHITECTURE.md)
 - **API / interaction surface**: [`API.md`](./API.md)
-- **Games landing page** (SEO + overview): [`GAMES.md`](./GAMES.md)
+- **Games landing page** : [`GAMES.md`](./GAMES.md)

@@ -5,7 +5,7 @@ Welcome to the docs for this **multi-chain casino game** smart contract suite (S
 ## Start here
 
 - **Quickstart**: [`GETTING_STARTED.md`](./GETTING_STARTED.md)
-- **Games (SEO landing page)**: [`GAMES.md`](./GAMES.md)
+- **Games**: [`GAMES.md`](./GAMES.md)
 - **API reference**: [`API.md`](./API.md)
 - **Deployment**: [`DEPLOYMENT.md`](./DEPLOYMENT.md)
 - **Architecture**: [`ARCHITECTURE.md`](./ARCHITECTURE.md)

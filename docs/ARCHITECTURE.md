@@ -71,7 +71,7 @@ At minimum, “provably fair” means:
 - Randomness comes from a verifiable source (VRF or equivalent).
 - Outcomes are reproducible/verifiable given on-chain proofs/logs.
 
-To keep the docs accurate across chains, the per-game VRF wiring lives in code; this page focuses on the consistent architecture. For the SEO/overview landing page, see [`GAMES.md`](./GAMES.md).
+To keep the docs accurate across chains, the per-game VRF wiring lives in code; this page focuses on the consistent architecture. See [`GAMES.md`](./GAMES.md).
 
 ---
 
