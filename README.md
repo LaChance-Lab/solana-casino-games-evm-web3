@@ -8,8 +8,8 @@ This repository provides production-ready Solana and EVM casino game smart contr
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Solana](https://img.shields.io/badge/Solana-14F195?logo=solana&logoColor=white)](https://solana.com)
 [![Ethereum](https://img.shields.io/badge/Ethereum-3C3C3D?logo=ethereum&logoColor=white)](https://ethereum.org)
-[![Stars](https://img.shields.io/github/stars/LaChance-Lab/EVM-Solana-Casino-Games?style=social)](https://github.com/LaChance-Lab/EVM-Solana-Casino-Games/stargazers)
-[![Forks](https://img.shields.io/github/forks/LaChance-Lab/EVM-Solana-Casino-Games?style=social)](https://github.com/LaChance-Lab/EVM-Solana-Casino-Games/network/members)
+[![Stars](https://img.shields.io/github/stars/LaChance-Lab/solana-casino-games-web3?style=social)](https://github.com/LaChance-Lab/solana-casino-games-web3/stargazers)
+[![Forks](https://img.shields.io/github/forks/LaChance-Lab/solana-casino-games-web3?style=social)](https://github.com/LaChance-Lab/solana-casino-games-web3/network/members)
 [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?logo=telegram&logoColor=white)](https://t.me/lachancelab)
 
 **10 Classic Casino Games • Multi-Chain Support • Provably Fair • Telegram Integration**
@@ -401,7 +401,7 @@ Draw your winning numbers!
 #### 1️⃣ Clone Repository
 ```bash
 git clone https://github.com/LaChance-Lab/solana-casino-games-web3-evm.git
-cd EVM-Solana-Casino-Games
+cd solana-casino-games-web3
 ```
 
 #### 2️⃣ Solana Setup
@@ -443,7 +443,7 @@ forge script script/Deploy.s.sol --rpc-url sepolia --broadcast --verify
 ## 📂 Repository Structure
 
 ```
-EVM-Solana-Casino-Games/
+solana-casino-games-web3/
 ├── 📄 README.md              ← You are here
 ├── 📄 LICENSE                ← MIT License
 ├── 📄 CONTRIBUTING.md        ← Contribution guidelines
@@ -795,7 +795,7 @@ Any SPL token (Solana) or ERC-20 token (EVM chains). USDC, USDT, and custom toke
 ### Is this audited?
 Yes, all contracts undergo security audits. See [SECURITY.md](./SECURITY.md) for details.
 
-**More questions?** See our [FAQ Guide](./docs/FAQ.md) or open a [GitHub Discussion](https://github.com/LaChance-Lab/EVM-Solana-Casino-Games/discussions).
+**More questions?** See our [FAQ Guide](./docs/FAQ.md) or open a [GitHub Discussion](https://github.com/LaChance-Lab/solana-casino-games-web3-evm/discussions).
 
 ---
 
@@ -807,8 +807,6 @@ Yes, all contracts undergo security audits. See [SECURITY.md](./SECURITY.md) for
 
 Made with ❤️ by LaChanceLab
 
-*Powered by Provably Fair Technology*
-
-**Keywords:** solana casino game, evm casino games, provably fair casino, blockchain casino games, web3 casino platform, multi-chain casino, solana smart contracts, ethereum casino contracts, casino game development, decentralized casino, VRF casino games, chainlink VRF, ORAO VRF, crash game, plinko game, dice game, blackjack smart contract, roulette blockchain, poker on-chain, slots game, coinflip casino, lottery smart contract
+*Powered by Provably Fair Technology*a m
 
 </div>
