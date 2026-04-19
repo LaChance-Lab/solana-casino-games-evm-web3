@@ -18,9 +18,7 @@ This repository provides production-ready Solana and EVM casino game smart contr
 
 </div>
 
-
-
-https://github.com/user-attachments/assets/fe07fb7c-e5da-4bd8-bb4d-2d98565a9537
+https://youtu.be/ij6JbbPLXTQ
 
 ---
 
