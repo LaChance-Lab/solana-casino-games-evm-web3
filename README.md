@@ -18,6 +18,8 @@ This repository provides production-ready Solana and EVM casino game smart contr
 
 </div>
 
+
+
 https://github.com/user-attachments/assets/fe07fb7c-e5da-4bd8-bb4d-2d98565a9537
 
 ---
@@ -41,6 +43,8 @@ https://github.com/user-attachments/assets/fe07fb7c-e5da-4bd8-bb4d-2d98565a9537
 ## 🌟 Overview
 
 A fully decentralized, provably fair casino platform supporting **Solana** and **EVM-compatible** chains. (Additional chains can be added by extending the same patterns.) Play classic casino games with transparent, verifiable outcomes powered by VRF (Verifiable Random Function) technology.
+
+
 
 ---
 
