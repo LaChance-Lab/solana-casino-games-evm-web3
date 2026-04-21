@@ -20,9 +20,15 @@ This repository provides production-ready Solana and EVM casino game smart contr
 
 <div align="center">
 
-**Demo walkthrough (YouTube)** — GitHub cannot embed a player in README files; click the image to watch.
+**Demo videos (YouTube)** — GitHub cannot embed a player in README files; click a thumbnail to watch on YouTube.
 
-[![Demo walkthrough — click to play on YouTube](https://img.youtube.com/vi/ij6JbbPLXTQ/hqdefault.jpg)](https://youtu.be/ij6JbbPLXTQ)
+**Platform demo**
+
+[![Platform demo — click to play on YouTube](https://img.youtube.com/vi/ij6JbbPLXTQ/hqdefault.jpg)](https://youtu.be/ij6JbbPLXTQ)
+
+**Origami Casino Game**
+
+[![Origami Casino Game — click to play on YouTube](https://img.youtube.com/vi/DRkTQIx3SgY/hqdefault.jpg)](https://youtu.be/DRkTQIx3SgY)
 
 </div>
 
