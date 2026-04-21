@@ -20,15 +20,21 @@ This repository provides production-ready Solana and EVM casino game smart contr
 
 <div align="center">
 
-**Demo videos (YouTube)** — GitHub cannot embed a player in README files; click a thumbnail to watch on YouTube.
+**Demo videos**
 
-**Platform demo**
+GitHub’s README viewer does not allow embedded YouTube players (no iframes). To **press play in the browser** on a page served by this repo, use the demos site (GitHub Pages) or open YouTube directly.
 
-[![Platform demo — click to play on YouTube](https://img.youtube.com/vi/ij6JbbPLXTQ/hqdefault.jpg)](https://youtu.be/ij6JbbPLXTQ)
+**Inline players (GitHub Pages)** — enable **Settings → Pages → Build and deployment → Deploy from a branch**, branch **`main`**, folder **`/docs`**, then open:
 
-**Origami Casino Game**
+[**https://lachance-lab.github.io/solana-casino-games-evm-web3/demos.html**](https://lachance-lab.github.io/solana-casino-games-evm-web3/demos.html)
 
-[![Origami Casino Game — click to play on YouTube](https://img.youtube.com/vi/DRkTQIx3SgY/hqdefault.jpg)](https://youtu.be/DRkTQIx3SgY)
+*(Source file: [`docs/demos.html`](./docs/demos.html). If that link 404s, Pages is not enabled yet for this repository.)*
+
+**Open on YouTube** (works without any setup)
+
+**Platform demo** — [![Platform demo — YouTube](https://img.youtube.com/vi/ij6JbbPLXTQ/hqdefault.jpg)](https://youtu.be/ij6JbbPLXTQ)
+
+**Origami Casino Game** — [![Origami Casino Game — YouTube](https://img.youtube.com/vi/DRkTQIx3SgY/hqdefault.jpg)](https://youtu.be/DRkTQIx3SgY)
 
 </div>
 
